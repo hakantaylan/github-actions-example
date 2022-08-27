@@ -29,6 +29,7 @@ jobs:
       run: mvn --batch-mode --update-snapshots package
     - name: Generate jar
       run: mkdir staging && cp target/*.jar staging
+    - name: Copy jar
       uses: actions/upload-artifact@v3
       with:
          name: Package
