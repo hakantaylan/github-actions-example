@@ -27,3 +27,7 @@ jobs:
 
     - name: Build with Maven
       run: mvn --batch-mode --update-snapshots package
+    - name: Lint Code Base
+      uses: docker://avtodev/markdown-lint:v1
+      with:
+        args: "**/*.md"
