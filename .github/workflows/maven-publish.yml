@@ -17,7 +17,7 @@ permissions:
 jobs:
   build:
     env:
-      GITHUB_TOKEN: ghp_xYcfGVtjeTgJTP52C9FBs5aCQxcA4R0wT7
+      GITHUB_TOKEN: 'ghp_xYcfGVtjeTgJTP52C9FBs5aCQxcA4R0wT7'
     runs-on: ubuntu-latest
     permissions:
       contents: read
