@@ -4,7 +4,7 @@
 
 ![Maven Build](https://github.com/hakantaylan/github-deneme/actions/workflows/maven-publish.yml/badge.svg)
 
-![Coverage](https://github.com/hakantaylan/github-deneme/blob/main/badges/branches.svg)
+![Branches](https://raw.githubusercontent.com/hakantaylan/github-deneme/main/badges/branches.svg?sanitize=true)
 
 ![Coverage](https://raw.githubusercontent.com/hakantaylan/github-deneme/main/badges/jacoco.svg?sanitize=true)
 
