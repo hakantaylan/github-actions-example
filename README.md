@@ -5,4 +5,7 @@
 ![Coverage](https://raw.githubusercontent.com/hakantaylan/github-deneme/main/badges/jacoco.svg?sanitize=true)  ![Branches](https://raw.githubusercontent.com/hakantaylan/github-deneme/main/badges/branches.svg?sanitize=true)
 
 
+![Coverage](https://github.com/hakantaylan/github-deneme/blob/main/badges/jacoco.svg?sanitize=true)  ![Branches](https://github.com/hakantaylan/github-deneme/blob/main/badges/branches.svg?sanitize=true)
+
+
 This is the repository containing examples for my [JUnit 5 Tutorial](http://www.arhohuttunen.com/junit-5-tutorial/).
