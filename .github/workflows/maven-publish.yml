@@ -35,10 +35,6 @@ jobs:
       run: mvn --batch-mode --update-snapshots package
     - name: Test with Maven
       run: mvn clean verify --file pom.xml
-    - name: Codecov reporter
-  # You may pin to the exact commit or the version.
-  # uses: AlexRogalskiy/github-action-coverage-reporter@e490d4e6d0f1f56edb0e76bae6b5290c2cc007c3
-      uses: AlexRogalskiy/github-action-coverage-reporter@v2.0.1
     - name: Generate JaCoCo badge
       id: jacoco
       uses: cicirello/jacoco-badge-generator@v2
