@@ -35,6 +35,8 @@ jobs:
       run: mvn --batch-mode --update-snapshots package
     - name: Test with Maven
       run: mvn clean verify --file pom.xml
+    - name: Upload to Codecov
+      uses: codecov/codecov-action@v2
     - name: Generate JaCoCo badge
       id: jacoco
       uses: cicirello/jacoco-badge-generator@v2
